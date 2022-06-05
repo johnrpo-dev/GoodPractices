@@ -1,7 +1,7 @@
 public class Cancion {
     private int id;
     private String title;
-    private int[] duration;
+    private int duration;
     private String gender;
     private String description;
     private String cover;
@@ -12,8 +12,8 @@ public class Cancion {
         this.gender = gender;
     }
 
-    public void setDuration(int hours, int minutes, int seconds) {
-        this.duration = duration{hours,minutes,seconds};
+    public void setDuration(int duration) {
+        this.duration = duration;
     }
 
     public void setDescription(String description) {
@@ -32,7 +32,7 @@ public class Cancion {
         return title;
     }
 
-    public int[] getDuration() {
+    public int getDuration() {
         return duration;
     }
 
